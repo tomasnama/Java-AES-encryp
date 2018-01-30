@@ -55,9 +55,8 @@ function decrypt(passwordEncrypt){
 
 var iv = "F27D5C9927726BCEFE7510B1BDD3D137";
 var salt = "3FF2EC019C627B945225DEBAD71A01B6985FE84C95A70EB132882F88C0A59A55";
-var plainText = "Password";
 var keySize = 128;
-var iterations = iterationCount = 10000;
+var iterationCount = 10000;
 var secretPhrase = "secret";
 
 var encrypted = encrypt('test')
