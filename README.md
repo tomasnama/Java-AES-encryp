@@ -18,7 +18,9 @@ src/tnm/encrypt
 ```
 ## JavaScript
 ### Prerequisites
-Node.js and npm.
+* Node.js 
+* npm
+* crypto-js https://www.npmjs.com/package/crypto-js
 
 ### JavaScript code
 ```shell
